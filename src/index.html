@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Json placeholder</title>
+</head>
+<body>
+    <form name="form" class="form">
+        <h2>Add new user</h2>
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter a name">
+        </p>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter an username">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter an email">
+        </p>
+        <p>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter a phone">
+        </p>
+        <p>
+            <label for="website">Website</label>
+            <input type="url" name="website" id="website" placeholder="Enter a website">
+        </p>
+        <button class="add-user">Add user</button>
+    </form>
+
+    <div class="data-container">
+        <button class="get-users">Get users</button>
+        <div class="user-container">
+            <ul class="user-name hidden">
+
+            </ul>
+            <ul class="user-info hidden">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

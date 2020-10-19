@@ -1,0 +1,54 @@
+button {
+    background: #1e3799;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    user-select: none;
+}
+
+ul {
+    padding: 0 20px 0 20px;
+}
+
+li {
+    list-style-type: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+form {
+    width: 20%;
+    margin-left: 20%;
+}
+
+input {
+    float: right;
+}
+
+.data-container {
+    width: 60%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.data-container .user-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data-container .user-container .user-name {
+    border: 1px solid #000000;
+    margin-right: 20px;
+}
+
+.data-container .user-container .user-info {
+    border: 1px solid #000000;
+}
+
+.hidden {
+    display: none;
+}
